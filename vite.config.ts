@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Portfolio_CheeVaher/", // ชื่อ repository
+  base: "/",  // หรือเอา base ออกเลยก็ได้ (default เป็น "/")
 })
