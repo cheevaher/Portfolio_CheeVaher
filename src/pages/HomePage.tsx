@@ -83,7 +83,7 @@ export default function HomePage({ darkMode }: { darkMode: boolean }) {
             viewport={{ once: true }}
           >
             <img
-              src="/profile.png"
+              src={`${import.meta.env.BASE_URL}profile.png`}
               alt="Profile"
               className="w-60 h-60 md:w-80 md:h-80 rounded-full shadow-lg object-cover"
             />
@@ -177,7 +177,7 @@ export default function HomePage({ darkMode }: { darkMode: boolean }) {
           >
             <div className="relative w-64 h-64 md:w-96 md:h-96 rounded-xl overflow-hidden border-4 border-gray-700 shadow-xl hover:shadow-2xl transition-shadow duration-300">
               <img
-                src="/image3.jpeg"
+                src={`${import.meta.env.BASE_URL}image3.jpeg`}
                 alt="About Me"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
               />
