@@ -67,7 +67,7 @@ export default function HomePage({ darkMode }: { darkMode: boolean }) {
               I’m highly motivated, eager to learn, and committed to creating clean, accessible, and user-friendly web interfaces using tools like React.js and Tailwind CSS.
             </p>
             <a
-              href="/CheeVaher_CV.pdf"
+              href="/"
               download
               className="inline-block mt-4 px-6 py-3 bg-indigo-700 hover:bg-indigo-800 text-white rounded-lg font-semibold shadow-md transition"
             >
